@@ -53,7 +53,7 @@ Jika Kamu membutuhkan jasa pembuatan website atau aplikasi, jangan ragu untuk me
 - **Nama**: Avoca Code
 - **Email**: [mail@avocacode.id](mailto:mail@avocacode.id)
 - **WhatsApp**: [0851-7998-7690](https://wa.me/6285179987690)
-- **Instagram**: [@avocacode.id](https://instagram.com/avocacode.id)
+- **Website**: [avocacode.id](https://avocacode.id)
 
 ---
 
