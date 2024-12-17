@@ -1,0 +1,146 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.me-1 {
+    margin-right: 20px;
+}
+
+.mb-1 {
+    margin-bottom: 20px;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    padding: 14px;
+    width: 600px;
+    border-radius: 10px;
+    border: 2px solid rgb(232, 236, 239);
+    outline: none;
+    transition: 0.2s;
+    margin-bottom: 10px
+}
+
+input:focus, input:active, input:focus-visible {
+    border: 2px solid #0084ff !important;
+}
+
+form button {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    height: 43px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid #0084ff;
+    background-color: #0084ff;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 16px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    cursor: move;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(232, 236, 239);
+    transition: 0.3s;
+}
+
+li:hover {
+    box-shadow: 0 4px 0.6rem 0.25rem rgba(0, 0, 0, 0.07);
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    margin-right: 16px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.box:hover {
+    background-color: rgba(0, 132, 255, 0.8);
+    border: 1px solid rgba(0, 132, 255, 1);
+}
+
+.box-completed {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 132, 255, 1);
+    margin-right: 16px;
+    background-color: rgba(0, 132, 255, 0.8);
+    transition: 0.3s;
+}
+
+.box-completed:hover {
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+}
+
+.completed {
+    text-decoration: line-through;
+    background-color: #d3d3d3;
+}
+
+.dragging {
+    opacity: 0.5;
+}
+
+.complete, .incomplete, .delete {
+    color: blue;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.delete {
+    color: #d84c10;
+}
